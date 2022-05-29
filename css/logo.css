@@ -1,0 +1,47 @@
+
+.vikas ul li{
+    
+    float: left;
+    text-decoration: none;
+    list-style: none;
+
+    font-size: 50px;
+padding: 30px;
+
+}
+
+.vikas{
+
+    border-radius: 10px;
+
+
+    padding-bottom: 0%;
+}
+
+.git a{
+
+    color: rgb(1, 1, 2);
+    
+}
+
+
+.git a:hover{
+    background-color: white;
+
+}
+
+.you a{
+    color: red;
+}
+
+.google a{
+    color: black;
+
+}
+.face a{
+
+    color: blue;
+
+
+
+}
