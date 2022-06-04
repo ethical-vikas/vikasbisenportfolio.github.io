@@ -1,0 +1,161 @@
+ul{
+
+animation-name: list;
+animation-duration: 4s;
+animation-delay: 3s;
+animation-iteration-count: infinite;
+position: relative;
+animation-direction: reverse;
+
+}
+
+
+@keyframes list{
+
+form { left: 0%; top: 0%; }
+to {background-color: rgb(0, 0, 0); border-radius: 50px;}
+
+
+
+
+
+}
+
+ul li a{
+
+color: aqua;
+font-size: 23px;
+text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+
+
+ul li{
+    padding-left: 10px;
+
+
+}
+
+ul li a:hover{
+
+
+    color: black;
+    background-color: chartreuse;
+}
+
+
+
+ul li{
+
+border: 1px solid greenyellow;
+border-radius: 15px;
+margin-right: 1130px;
+}
+
+
+
+ol li{
+
+    border: 1px solid red;
+    border-radius: 15px;
+    margin-right: 1130px;
+}
+
+
+
+ol li a{
+
+    color: rgb(255, 140, 0);
+    font-size: 23px;
+    text-decoration:none ;
+    list-style: none;
+
+    padding-left: 10px;
+
+}
+
+ol li a:hover{
+
+    background-color: rgb(247, 0, 0);
+    color: black;
+
+
+}
+
+
+
+button{
+
+font-size: xx-large;
+text-decoration: none;
+list-style: none;
+border-radius: 10px;
+}
+
+button a{
+list-style: none;
+text-decoration: none;
+
+    color: rgb(255, 0, 0);
+
+    border-radius: 5px;
+}
+
+
+
+button:hover{
+
+color: black;
+background-color: greenyellow;
+
+border-radius: 12px;
+
+}
+
+
+
+.bd{
+
+
+
+
+    background-color: rgba(0, 255, 149, 0.589);
+    animation-name: body;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes body {
+    0% {background-color: rgba(255, 0, 0, 0.37);}
+     25% {background-color: rgba(0, 255, 255, 0.507);}
+   50% {background-color: rgba(255, 255, 0, 0.671);}
+  }
+}
+
+.division {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
